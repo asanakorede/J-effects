@@ -1,8 +1,8 @@
-.blue-text{
+.blue-text {
     color: lightseagreen;
 }
 
-.blue-text:hover{
+.blue-text:hover {
     text-decoration: underline;
     transition: 0.1s ease-in-out;
 }

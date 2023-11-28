@@ -1,5 +1,6 @@
-$(document).ready(function(){
-    $("car1").click(function(){
-        $("blue-text").toggle().fadeIn();
-    })
+$(document).ready(function () {
+    // $(".blue-text").click(function () {
+    //     $("#car-hidden").slideToggle().slideDown().toggle();
+    //     $("#car-showing").slideToggle().slideUp().toggle();
+    // });
 })

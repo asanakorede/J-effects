@@ -1,3 +1,11 @@
+/* #car-showing{
+    display: none;
+} */
+
+body{
+    height: 250vh;
+}
+
 .blue-text {
     color: lightseagreen;
 }
@@ -5,4 +13,17 @@
 .blue-text:hover {
     text-decoration: underline;
     transition: 0.1s ease-in-out;
+}
+
+.clickable {
+    color: lightseagreen;
+}
+
+.clickable:hover {
+    text-decoration: underline;
+    transition: 0.1s ease-in-out;
+}
+.nike-hidden img{
+    height: 400px;
+    width: 400px;
 }

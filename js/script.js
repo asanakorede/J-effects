@@ -1,6 +1,11 @@
 $(document).ready(function () {
     $(".blue-text").click(function () {
-        $("#car-hidden").slideToggle().slideDown().toggle();
-        $("#car-showing").slideToggle().slideUp().toggle();
+        $("#car-hidden").fadeIn().toggle();
+        $("#car-showing").fadeOut().toggle();
     });
-})
+
+    $(".clickable").click(function () {
+     $(".nike-hidden").toggle().slideIn();
+     $(".nike-showing").toggle().slideOut();
+    })
+});
